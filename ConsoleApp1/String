@@ -113,3 +113,33 @@ StringDataStructure _stringDT = new StringDataStructure();
 //Get the word cound for string  
 var value5 = _stringDT.GetWordCount("My name is mukesh");  
 WriteLine("Word count for the string 'My name   is mukesh' is = " + value5);
+======================
+Problem 9: Get the first char of each word in capital letter.
+namespace DataStructureDemo.Example  
+{  
+    public class StringDataStructure  
+    {  
+        // Get the first char of the each word  
+        public void GetFirstCharForEachWord(string sentence)  
+        {  
+            if (!string.IsNullOrEmpty(sentence))  
+            {  
+                string[] arr = sentence.Split(' ');  
+  
+                foreach (string item in arr)  
+                {  
+                    Write(item.Substring(0, 1).ToUpper() + " ");  
+                }  
+  
+                ReadKey();  
+            }  
+        }  
+    }  
+}  
+
+
+StringDataStructure _stringDT = new StringDataStructure();  
+stringDT.GetFirstCharForEachWord("I love my india.");  
+
+Output-
+I L M I
