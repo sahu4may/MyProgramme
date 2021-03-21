@@ -108,11 +108,15 @@ namespace DataStructureDemo.Example
         }  
     }  
 }  
-Output
+
 StringDataStructure _stringDT = new StringDataStructure();            
 //Get the word cound for string  
 var value5 = _stringDT.GetWordCount("My name is mukesh");  
 WriteLine("Word count for the string 'My name   is mukesh' is = " + value5);
+
+The output will be as follows.
+
+Word count for the string 'My name is mukesh' is = 4
 ======================
 Problem 9: Get the first char of each word in capital letter.
 namespace DataStructureDemo.Example  
