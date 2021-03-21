@@ -19,7 +19,8 @@ internal static void removeduplicate(string str)
      Console.WriteLine(result);  
  }
 
-
+Problem 2: Get all unique characters in a string.
+Problem 3: Get max occured character in a String.
 =========================Sorting the number in asending order =======
 using System;  
 public class Exercise11  
