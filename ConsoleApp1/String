@@ -88,3 +88,28 @@ namespace CodingAlgorithms
         }
     }
 }
+====================
+Problem 5: Get the word count in a sentence (string).
+namespace DataStructureDemo.Example  
+{  
+    public class StringDataStructure  
+    {  
+        // Get the count of the word in a sentence  
+        public int GetWordCount(string _title)  
+        {  
+            if (string.IsNullOrEmpty(_title))  
+                return 0;  
+  
+            _title = _title.Trim();  
+  
+            var length = _title.Split(' ').Length;  
+  
+            return length;  
+        }  
+    }  
+}  
+Output
+StringDataStructure _stringDT = new StringDataStructure();            
+//Get the word cound for string  
+var value5 = _stringDT.GetWordCount("My name is mukesh");  
+WriteLine("Word count for the string 'My name   is mukesh' is = " + value5);
