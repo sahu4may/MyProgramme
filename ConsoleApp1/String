@@ -1,10 +1,11 @@
 
-Q.1: How to remove duplicate characters from a string?
+Q.1: How to remove duplicate characters from a string? or Problem 2: Get all unique characters in a string.
 Ans.: The user will input a string and the method should remove multiple occurrences of 
 
 characters in the string
 
 input: csharpcorner, output: csharpone
+input : Google,ouptu: Gole
 internal static void removeduplicate(string str)  
  {  
      string result = string.Empty;  
@@ -19,7 +20,10 @@ internal static void removeduplicate(string str)
      Console.WriteLine(result);  
  }
 
-Problem 2: Get all unique characters in a string.
+Here, you can see the output as "gole". Which means after removing duplicate characters from the word "google" we get the "gole" which are unique chars.
+
+Unique char in string 'google' is = gole
+
 Problem 3: Get max occured character in a String.
 =========================Sorting the number in asending order =======
 using System;  
