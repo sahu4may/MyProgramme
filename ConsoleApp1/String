@@ -181,3 +181,34 @@ public class Example
 /*
     Output: 3
 */
+=================
+https://www.geeksforgeeks.org/number-of-occurrences-of-2-as-a-digit-in-numbers-from-0-to-n/
+// C# code for above implementation
+using System;
+class GFG
+{
+  static int numberOf2sinRange(int n)
+  {
+    string s = "";
+    for(int i = 0; i < n + 1; i++)
+      s += i + "";  
+    int count = 0;
+    for(int i = 0; i < s.Length; i++)
+    {
+      if(s[i] == '2')
+      {
+        count++;
+      }
+    }
+    return count;
+  }
+ 
+  // Driver code
+  public static void Main(string[] args)
+  {
+    int n = 30;
+    Console.Write(numberOf2sinRange(n));
+  }
+}
+Output: 
+13
