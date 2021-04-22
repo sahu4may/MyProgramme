@@ -276,3 +276,10 @@ namespace Demo {
       }
    }
 }
+===
+combine two array and find duplicate value 
+https://www.tutorialspoint.com/combine-two-arrays-in-chash#:~:text=var%20myList%20%3D%20new%20List%3Cint,AddRange(arr2)%3B
+
+var myList = new List<int>();
+myList.AddRange(arr1);
+myList.AddRange(arr2);
